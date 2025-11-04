@@ -8,7 +8,7 @@ import './models/Product.mjs'
 import { routes as userRoutes } from "./routes/user.mjs" 
 import { productRoutes } from "./routes/product.mjs" 
 
-const PORT = process.argv[2] ?? 3001 
+const PORT = 3001 
 const app = express()
 app.use(cors())
 app.use(express.json())
