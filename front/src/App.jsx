@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom' // ✅ Correcto
+import { BrowserRouter, Routes, Route } from 'react-router-dom' 
 import Public from "./components/Public"
 import Private from './components/Private'
 import Login from './components/Login'
