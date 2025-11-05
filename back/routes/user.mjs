@@ -99,7 +99,7 @@ routes.get("/verify-token", async (req, res) => {
     const auth = headers.authorization
     
     if (!auth) {
-        return res.status(401).json({ error: true, msg: "No token provided" })
+        return res.status(401).json({ error: true, msg: "No se proporciono un token" })
     }
     
     const token = auth.split(" ")[1]
